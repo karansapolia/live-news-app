@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# ChatGPT News Summarizer
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This app aims to be a news aggregator as well as a "News summarizer"
 
-## Deploy your own
+We use:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+1. Mediastack News API to fetch news by topics
+2. Use the OpenAI API to make ChatGPT summarize the presented news articles.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## How to try this locally?
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Download repo and install node modules with yarn/npm/pnpm
+2. Create a `.env` or `.env.local` file
+3. Add two API keys to this file:
+   1. Mediastack API key as `ACCESS_KEY`
+   2. OpenAPI Api key as `OPENAI_API_KEY`
+4. Run `pnpm dev` or `npm dev` or `yarn dev`
+5. Click on the "Summarize news" button 
+6. Enjoy

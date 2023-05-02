@@ -1,5 +1,9 @@
 {
   "private": true,
+  "author": {
+    "name": "Karan Sapolia Sharma",
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
