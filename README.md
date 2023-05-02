@@ -1,5 +1,8 @@
 # ChatGPT News Summarizer
 
+![02-05-2023 at 17 02 35 - Amber Quokka -1](https://user-images.githubusercontent.com/10175625/235707754-4611cddc-3246-4650-a8ec-8b8172e0fcb4.gif)
+
+
 This app aims to be a news aggregator as well as a "News summarizer"
 
 We use:
