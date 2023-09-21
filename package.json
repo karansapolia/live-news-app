@@ -14,7 +14,7 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "chatgpt": "^5.2.2",
     "encoding": "^0.1.13",
-    "graphql": "^16.6.0",
+    "graphql": "^16.8.1",
     "graphql-request": "^5.2.0",
     "next": "latest",
     "next-themes": "^0.2.1",
